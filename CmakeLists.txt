@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.5)
+project(CanBusSimulator)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+include_directories(include)
+
+set(SOURCES
+    src/Frame.cpp
+    src/Bus.cpp
+    src/Analyzer.cpp
+    main.cpp
+)
+
+add_executable(CanBusSimulator ${SOURCES})
