@@ -9,9 +9,11 @@
 #include <chrono>
 #include <climits>
 
+#define NUMBER_OF_FRAMES 99u
+
 int main(void)
 {
-    Bus bus(999);
+    Bus bus(NUMBER_OF_FRAMES);
 
     srand(time(0));
     

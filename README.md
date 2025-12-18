@@ -5,9 +5,8 @@ A basic **CAN bus simulator** written in C++ for educational and testing purpose
 ---
 
 ## 📖 Project Overview
-CANBusSimulator provides a simple environment to simulate communication over a Controller Area Network (CAN) bus without requiring physical hardware. 
-To manipulate program's behavor please modify the main.cpp file. 
-As defaul, it randomly generates 99 frames and displays some statistics from these generated frames.
+CANBusSimulator provides a simple environment to simulate communication over a Controller Area Network (CAN) bus without requiring physical hardware.
+As default, it randomly generates 99 frames and displays some statistics from these generated frames.
 
 ---
 
@@ -21,8 +20,8 @@ As defaul, it randomly generates 99 frames and displays some statistics from the
 ---
 
 ## ⚙️ Requirements
-- C++11 or newer (tested with `g++` and `clang`)
-- [CMake](https://cmake.org/) - best to use version 3.10+
+- C++11 or newer (tested with `g++`)
+- [CMake](https://cmake.org/) - 3.10+
 - Tested on Linux and Windows
 
 ---
